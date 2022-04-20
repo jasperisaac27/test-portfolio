@@ -1,16 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    margin: auto;
+    background-color: black;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100vw;
+}
+
+#__next {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.pages-container {
+    min-height: calc(80vh - 75px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fade-in {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 1;
+    animation: fade_in 1s forwards;
+}
+
+.fade-in.fade {
+    animation: fade_in 1s forwards;
+}
+
+.youtube-cont-wrapper {
+    background-color: black;
+    width: 100%;
+    position: relative;
+}
+
+@keyframes fade_in {
+    0% {
+        background-color: rgba(0, 0, 0, 1);
+    }
+    100% {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
 }

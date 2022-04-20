@@ -1,0 +1,85 @@
+.video-page {
+    padding: 4rem 0;
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.video-content {
+    width: 50%;
+    min-height: 60vh;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.video-content h1 {
+    margin: 0;
+    font-family: "Abril Fatface";
+}
+.video-content h3 {
+    font-family: "Abril Fatface";
+}
+
+.youtube-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.youtube-container-1,
+.youtube-container-2,
+.youtube-container-3,
+.youtube-container-4,
+.youtube-container-5,
+.youtube-container-6 {
+    opacity: 0;
+    transition: opacity 1s linear;
+    margin: 2vw 0;
+}
+
+.youtube-title {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.2s linear;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    pointer-events: none;
+}
+
+.youtube-title p,
+.youtube-title h2 {
+    opacity: 0;
+    transition: all 0.2s linear;
+    color: white;
+    text-align: center;
+    padding: 0 2vw;
+}
+
+.youtube-title.hovered {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.youtube-title h2 {
+    margin-top: 5vw;
+}
+
+.youtube-title.hovered p,
+.youtube-title.hovered h2 {
+    opacity: 1;
+}
+@media screen and (max-width: 1440px) {
+    .video-content {
+        width: 90%;
+    }
+}

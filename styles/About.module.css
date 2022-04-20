@@ -1,0 +1,111 @@
+.about-page {
+    padding: 4rem 0;
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.about-content {
+    width: 50%;
+    min-height: 60vh;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.about-content h1 {
+    /* width: fit-content; */
+    text-align: center;
+    margin: 0;
+    font-family: "Abril Fatface";
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.hey-guys {
+    /* text-align: center; */
+    font-size: 24px;
+    font-weight: 500;
+    /* margin: 0; */
+}
+.about-content h3 {
+    font-family: "Abril Fatface";
+}
+.images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.image-container {
+    margin: 5px;
+    width: 33%;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 170px;
+}
+
+.image-container .hover-text {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5vw 1vw;
+}
+
+.image-container .hover-text p {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.hover-text h2 {
+    margin: 0;
+}
+.image-container .hover-text p:nth-child(3) {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: all 0.2s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.image-container:hover .hover-text {
+    opacity: 1;
+    opacity: 1;
+}
+.image-container:hover img {
+    opacity: 0.2;
+}
+
+.video-link,
+.content-link,
+.theatre-link {
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1440px) {
+    .about-content {
+        width: 90%;
+    }
+}
