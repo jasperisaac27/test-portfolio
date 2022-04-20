@@ -10,14 +10,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Layout = ({ children }) => {
-    const [isToggled, setIsToggled] = useState(undefined);
+    const [isToggled, setIsToggled] = useState(false);
     const [activePage, setActivePage] = useState("home");
     const [currentKey, setCurrentKey] = useState("1");
 
     const router = useRouter();
 
     function toggleNavbar() {
-        if (isToggled === undefined || isToggled === true) {
+        if (isToggled === true) {
             setIsToggled(false);
         } else {
             setIsToggled(true);
@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
     useEffect(() => {
         const date = new Date().getTime();
         setCurrentKey(date);
-        toggleNavbar();
+        setIsToggled(false);
         if (router.pathname === "/") {
             setActivePage("home");
             return;

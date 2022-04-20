@@ -384,7 +384,7 @@ const Video = () => {
                                     onReady(event, 6);
                                 }}
                             />
-                        </div>{" "}
+                        </div>
                     </div>
                     <p data-aos="fade-up" data-aos-duration="500">
                         You can find more edited videos of mine in the Content
