@@ -135,7 +135,7 @@ const Content = () => {
                             became inspired to give streaming a shot. Once I
                             learned what I needed, prepared my OBS, Twitch
                             account, and the video game I decided to stream, I
-                            hit 'Start Streaming'.
+                            hit &apos;Start Streaming&apos;.
                         </p>
                         <p
                             data-aos="fade-up"
@@ -153,10 +153,11 @@ const Content = () => {
                             data-aos-delay="250"
                             data-aos-duration="500"
                         >
-                            It started from "I'm only doing this since I have
-                            nothing else to do during this pandemic," that
-                            turned into "I've made great friends and a community
-                            here on Twitch, I don't want to stop now!"
+                            It started from &quot;I&apos;m only doing this since
+                            I have nothing else to do during this
+                            pandemic,&quot; that turned into &quot;I&apos;ve
+                            made great friends and a community here on Twitch, I
+                            don&apos;t want to stop now!&quot;
                         </p>
                         <p
                             data-aos="fade-up"

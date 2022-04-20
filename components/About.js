@@ -13,8 +13,9 @@ const About = () => {
             >
                 <h1>Patricia Bermudez</h1>
                 <p>
-                    Hey! I'm a Communication and Media Studies graduate from San
-                    Beda College - Alabang. Recently, I have been focusing on{" "}
+                    Hey! I&apos;m a Communication and Media Studies graduate
+                    from San Beda College - Alabang. Recently, I have been
+                    focusing on{" "}
                     <b>video editing, content creation, and stage acting.</b>
                 </p>
                 <div className={styles["video-and-content"]}>
@@ -22,7 +23,7 @@ const About = () => {
 
                     <p>
                         Ever since college, I have been the video editor for
-                        every group project; even in the school's theatre
+                        every group project; even in the school&apos;s theatre
                         organization I was in! Short films and trailers for
                         theatre shows were my best work in school.
                     </p>
@@ -42,17 +43,17 @@ const About = () => {
                         since I also loved reading a lot of fantasy/fiction
                         novels at that time. But with the pressure as a
                         graduating college student plus the president of the
-                        school's theatre organization at the time, I did not get
-                        to follow through.
+                        school&apos;s theatre organization at the time, I did
+                        not get to follow through.
                     </p>
                     <p>
                         Right now, I have been more focused on creating content
                         as a small streamer on Twitch. While most of the content
-                        isn't planned like when I did YouTube, playing video
-                        games and interacting with a live audience seems better
-                        for my style. I have been getting my video editing flow
-                        back by editing funny clip compilations and social media
-                        posts with my fellow streamers.
+                        isn&apos;t planned like when I did YouTube, playing
+                        video games and interacting with a live audience seems
+                        better for my style. I have been getting my video
+                        editing flow back by editing funny clip compilations and
+                        social media posts with my fellow streamers.
                     </p>
                     <p>
                         You can find my best work in the{" "}
@@ -78,7 +79,7 @@ const About = () => {
                         I perform on stage, and doing theatre has made me
                         realize that this is what I have always wanted to do.
                         One of the upperclassmen appointed me to be the
-                        secretary of the school's theatre organization, and
+                        secretary of the school&apos;s theatre organization, and
                         everything that made me want to pursue theatre started
                         on from there.
                     </p>
@@ -114,8 +115,8 @@ const About = () => {
                             <div className={styles["hover-text"]}>
                                 <h2>YouTube</h2>
                                 <p>
-                                    Screenshot from "HELLO AGAIN, GUYS!" video
-                                    on her YouTube channel
+                                    Screenshot from &quot;HELLO AGAIN,
+                                    GUYS!&quot; video on her YouTube channel
                                 </p>
                             </div>
                             <img src="images/yt-ss.png" />
@@ -131,8 +132,9 @@ const About = () => {
                             <h2>Twitch</h2>
                             <p>Screenshot from a clip during a Twitch stream</p>
                             <p>
-                                Patricia goes under the name of "Mitch Chase" in
-                                her Twitch channel called SomeTheatreKid
+                                Patricia goes under the name of &quot;Mitch
+                                Chase&quot; in her Twitch channel called
+                                SomeTheatreKid
                             </p>
                         </div>
                         <a href="https://www.twitch.tv/sometheatrekid">

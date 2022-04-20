@@ -63,7 +63,7 @@ const Layout = ({ children }) => {
             </div>
             <div className={`fade-in fade`} key={currentKey} />
             <Head>
-                <title>Patricia's Portfolio</title>
+                <title>Patricia&apos;s Portfolio</title>
                 <meta
                     name="description"
                     content="This is Patricia Bermudez's online portfolio"

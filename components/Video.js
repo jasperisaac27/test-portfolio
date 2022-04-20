@@ -68,10 +68,10 @@ const Video = () => {
                 <div data-aos="zoom-in">
                     <h1>VIDEO EDITING</h1>
                     <p>
-                        Summer vacation back in high school. That's when I first
-                        dabbled in video editing using Windows Movie Maker,
-                        creating my first stop motion lyric video. Since then, I
-                        would always volunteer whenever a school project
+                        Summer vacation back in high school. That&apos;s when I
+                        first dabbled in video editing using Windows Movie
+                        Maker, creating my first stop motion lyric video. Since
+                        then, I would always volunteer whenever a school project
                         required video editing.
                     </p>
                     <p>
@@ -85,10 +85,10 @@ const Video = () => {
                             In college, I have worked on various video editing
                             projects. Ranging from short films, student
                             documentaries, but mainly on teaser trailers for the
-                            school's theatre organization. These trailers were
-                            played on the theatre org's social media, in-campus
-                            televisions, and during the stage shows themselves
-                            before the show starts.
+                            school&apos;s theatre organization. These trailers
+                            were played on the theatre org&apos;s social media,
+                            in-campus televisions, and during the stage shows
+                            themselves before the show starts.
                         </p>
                         <div className="youtube-cont-wrapper">
                             <div className={styles["youtube-title"]}>
@@ -96,18 +96,18 @@ const Video = () => {
                                     Kung Paano Ako Naging Leading Lady | Teaser
                                 </h2>
                                 <p>
-                                    Teaser trailer for Teatro Bedista's one-act
-                                    stage play, "Kung Paano Ako Naging Leading
-                                    Lady."
+                                    Teaser trailer for Teatro Bedista&apos;s
+                                    one-act stage play, &quot;Kung Paano Ako
+                                    Naging Leading Lady.&quot;
                                 </p>
                                 <p>
-                                    The concept is to present the show's main
-                                    character, who she is, and where she works
-                                    under one minute. The comic book-looking
-                                    filter is used in the beginning to subtly
-                                    hint that the stage play was adapted from a
-                                    comic book with the same name by Carlo
-                                    Vergara.
+                                    The concept is to present the show&apos;s
+                                    main character, who she is, and where she
+                                    works under one minute. The comic
+                                    book-looking filter is used in the beginning
+                                    to subtly hint that the stage play was
+                                    adapted from a comic book with the same name
+                                    by Carlo Vergara.
                                 </p>
                                 <p>
                                     Video created in 2016 using Adobe Premiere
@@ -142,13 +142,14 @@ const Video = () => {
                             <div className={styles["youtube-title"]}>
                                 <h2>Joe Cool: Aplikante Teaser Trailer</h2>
                                 <p>
-                                    Teaser trailer for Teatro Bedista's one-act
-                                    stage play, "Joe Cool: Aplikante.
+                                    Teaser trailer for Teatro Bedista&apos;s
+                                    one-act stage play, &quot;Joe Cool:
+                                    Aplikante.
                                 </p>
                                 <p>
-                                    The concept is to showcase the play's absurd
-                                    feel with a handwritten elements, in an
-                                    office setting (where the play is set).
+                                    The concept is to showcase the play&apos;s
+                                    absurd feel with a handwritten elements, in
+                                    an office setting (where the play is set).
                                 </p>
                                 <p>
                                     Video created in 2016 using Adobe Premiere
@@ -196,9 +197,9 @@ const Video = () => {
                     >
                         My high school best friend became my first client for
                         creating promotional video advertisements for their
-                        coffee business' social media. While they ended up not
-                        using them, my friend told me that they liked the videos
-                        I made for them.
+                        coffee business&apos; social media. While they ended up
+                        not using them, my friend told me that they liked the
+                        videos I made for them.
                     </p>
                     <p
                         data-aos="fade-up"
@@ -352,7 +353,7 @@ const Video = () => {
                         <div className={styles["youtube-title"]}>
                             <h2>
                                 Seasons of Love by the cast of Atlantis
-                                Theatrical's RENT: School Edition
+                                Theatrical&apos;s RENT: School Edition
                             </h2>
                             <p>
                                 Celebrating a year after their closing show, the
