@@ -16,10 +16,6 @@
     opacity: 1;
 }
 
-.background-image img {
-    object-fit: cover;
-}
-
 .fading {
     transition: all 1s linear;
     background-color: rgba(255, 255, 255);
@@ -228,6 +224,9 @@
 
     .home-descriptions {
         font-size: 3vw;
+    }
+    .background-image img {
+        object-fit: cover;
     }
 }
 
