@@ -23,6 +23,7 @@
 }
 
 .contact-header {
+    width: 100%;
     display: flex;
     flex-direction: row;
     border-top-left-radius: 5px;
@@ -66,9 +67,9 @@
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     margin-top: 0.5vw;
-    padding: 0.9vw;
+    padding: 0.4vw 0.9vw;
     cursor: pointer;
-    transition: all 0.2s linear;
+    transition: background-color 0.2s linear;
     font-size: 0.8vw;
 }
 
@@ -115,15 +116,24 @@
     height: 100%;
 }
 
-.form {
+.form-wrapper {
     position: absolute;
-
-    background-color: white;
-    height: 100%;
+    top: 0;
+    left: 0;
     width: 100%;
-    padding: 5% 10%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     opacity: 0;
-    transition: all 0.5s linear;
+    transition: background-color 0.5s linear, opacity 0.5s linear;
+}
+.form-wrapper form {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
 }
 
 .form textarea {
@@ -134,20 +144,61 @@
 .form textarea {
     outline: none;
     margin-bottom: 1vw;
-    width: 50%;
+    width: 100%;
+    display: block;
+    padding: 0.5vw;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 2vw;
+    font-size: 0.75vw;
+}
+
+.form label {
+    margin: 0;
+    margin-bottom: 0.25vw;
+    font-weight: normal;
+    font-size: 0.75vw;
+    display: block;
 }
 
 .form textarea {
-    height: 30%;
+    height: 3vw;
+    padding: 0.5vw;
 }
 
-.form h3 {
-    margin: 0;
-    font-weight: normal;
-    font-size: 1vw;
-}
-
-.form.show-form {
+.form-wrapper.show-form {
     opacity: 1;
     z-index: 2;
+}
+
+.form button {
+    outline: none;
+    width: 100%;
+    padding: 0.5vw 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 0.75vw;
+    transition: background-color 0.2s linear;
+}
+
+.form button:hover {
+    background-color: rgb(232, 208, 248);
+}
+
+@media screen and (max-width: 900px) {
+    .contact-content {
+        width: 80%;
+    }
+
+    .contact-header {
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .img-wrapper {
+        width: 100% !important;
+        height: 40vw;
+    }
 }

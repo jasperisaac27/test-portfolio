@@ -103,7 +103,7 @@ const Contact = () => {
                         <div>
                             <span>Need to tell me something?</span>
                             <button onClick={toggleForm}>
-                                {openForm ? "Open" : "Close"} Form
+                                {!openForm ? "Open" : "Close"} Form
                             </button>
                         </div>
                     </div>
@@ -119,46 +119,54 @@ const Contact = () => {
                     >
                         <div className={styles["img-bc"]}></div>
                         <img src="/images/yt-ss.png" />
-                        <form
-                            id="form"
-                            className={`${styles["form"]} ${
-                                !openForm && styles["show-form"]
+                        <div
+                            className={`${styles["form-wrapper"]} ${
+                                openForm && styles["show-form"]
                             }`}
-                            onSubmit={onFormSubmit}
-                            ref={formRef}
                         >
-                            <h3>Name *</h3>
-                            <input
-                                type="text"
-                                onChange={onChangeHandler}
-                                onKeyDown={handleEnter}
-                                name="user_name"
-                                value={formData.name}
-                            />
-                            <h3>Email *</h3>
-                            <input
-                                type="email"
-                                onChange={onChangeHandler}
-                                onKeyDown={handleEnter}
-                                name="user_email"
-                                value={formData.email}
-                            />
-                            <h3>Subect</h3>
-                            <input
-                                type="text"
-                                onChange={onChangeHandler}
-                                onKeyDown={handleEnter}
-                                name="subject"
-                                value={formData.subject}
-                            />
-                            <h3>Message</h3>
-                            <input
-                                onChange={onChangeHandler}
-                                name="message"
-                                value={formData.body}
-                            />
-                            <button type="submit">Send</button>
-                        </form>
+                            <form
+                                id="form"
+                                className={`${styles["form"]}`}
+                                onSubmit={onFormSubmit}
+                                ref={formRef}
+                            >
+                                <label htmlFor="user_name">Name *</label>
+                                <input
+                                    type="text"
+                                    onChange={onChangeHandler}
+                                    onKeyDown={handleEnter}
+                                    id="user_name"
+                                    name="user_name"
+                                    value={formData.name}
+                                />
+                                <label htmlFor="user_email">Email *</label>
+                                <input
+                                    type="email"
+                                    id="user_email"
+                                    onChange={onChangeHandler}
+                                    onKeyDown={handleEnter}
+                                    name="user_email"
+                                    value={formData.email}
+                                />
+                                <label htmlFor="subject">Subject</label>
+                                <input
+                                    type="text"
+                                    id="subject"
+                                    onChange={onChangeHandler}
+                                    onKeyDown={handleEnter}
+                                    name="subject"
+                                    value={formData.subject}
+                                />
+                                <label htmlFor="message">Message</label>
+                                <textarea
+                                    onChange={onChangeHandler}
+                                    id="message"
+                                    name="message"
+                                    value={formData.body}
+                                />
+                                <button type="submit">Send</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
