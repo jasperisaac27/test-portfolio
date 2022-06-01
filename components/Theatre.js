@@ -98,12 +98,12 @@ const Theatre = () => {
                             width={325}
                         />
                         <Image
-                            src="/images/stuck4.jpg"
+                            src="/images/stuck4.JPG"
                             height={250}
                             width={325}
                         />
                         <Image
-                            src="/images/stuck6.jpg"
+                            src="/images/stuck6.JPG"
                             height={250}
                             width={325}
                         />
