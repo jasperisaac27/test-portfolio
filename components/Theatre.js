@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import styles from "../styles/Theatre.module.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import Image from "next/image";
 
 const Theatre = () => {
     const [innerWidth, setInnerWidth] = useState(100);
@@ -78,18 +79,34 @@ const Theatre = () => {
                         infiniteLoop={true}
                         transitionTime={500}
                     >
-                        <img src="/images/stuck1.jpg" />
-
-                        <img
-                            src="/images/stuck2.jpg"
-                            style={{ objectFit: "contain" }}
+                        <Image
+                            src="/images/stuck1.jpg"
+                            height={250}
+                            width={325}
                         />
 
-                        <img src="/images/stuck3.jpg" />
+                        <Image
+                            src="/images/stuck2.jpg"
+                            height={250}
+                            width={325}
+                            objectFit={"contain"}
+                        />
 
-                        <img src="/images/stuck4.jpg" />
-
-                        <img src="/images/stuck6.jpg" />
+                        <Image
+                            src="/images/stuck3.jpg"
+                            height={250}
+                            width={325}
+                        />
+                        <Image
+                            src="/images/stuck4.jpg"
+                            height={250}
+                            width={325}
+                        />
+                        <Image
+                            src="/images/stuck6.jpg"
+                            height={250}
+                            width={325}
+                        />
                     </Carousel>
                 </div>
                 <div
@@ -112,18 +129,36 @@ const Theatre = () => {
                         infiniteLoop={true}
                         transitionTime={500}
                     >
-                        <img
+                        <Image
                             src="/images/rent3.jpg"
-                            style={{ objectFit: "contain" }}
+                            height={250}
+                            width={325}
+                            objectFit={"contain"}
                         />
 
-                        <img src="/images/rent4.jpg" />
+                        <Image
+                            src="/images/rent4.jpg"
+                            height={250}
+                            width={325}
+                        />
 
-                        <img src="/images/rent1.jpg" />
+                        <Image
+                            src="/images/rent1.jpg"
+                            height={250}
+                            width={325}
+                        />
 
-                        <img src="/images/rent2.jpg" />
+                        <Image
+                            src="/images/rent2.jpg"
+                            height={250}
+                            width={325}
+                        />
 
-                        <img src="/images/rent5.jpg" />
+                        <Image
+                            src="/images/rent5.jpg"
+                            height={250}
+                            width={325}
+                        />
                     </Carousel>
                 </div>
                 <div
@@ -144,13 +179,26 @@ const Theatre = () => {
                         infiniteLoop={true}
                         transitionTime={500}
                     >
-                        <img src="/images/himala2.jpg" />
-
-                        <img src="/images/himala4.jpg" />
-
-                        <img src="/images/himala1.jpg" />
-
-                        <img src="/images/himala3.jpg" />
+                        <Image
+                            src="/images/himala4.jpg"
+                            height={250}
+                            width={325}
+                        />
+                        <Image
+                            src="/images/himala2.jpg"
+                            height={250}
+                            width={325}
+                        />
+                        <Image
+                            src="/images/himala1.jpg"
+                            height={250}
+                            width={325}
+                        />
+                        <Image
+                            src="/images/himala3.jpg"
+                            height={250}
+                            width={325}
+                        />
                     </Carousel>
                 </div>
             </div>
