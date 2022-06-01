@@ -87,9 +87,9 @@ const Theatre = () => {
 
                         <img src="/images/stuck3.jpg" />
 
-                        <img src="/images/stuck4.JPG" />
+                        <img src="/images/stuck4.jpg" />
 
-                        <img src="/images/stuck6.JPG" />
+                        <img src="/images/stuck6.jpg" />
                     </Carousel>
                 </div>
                 <div
@@ -121,9 +121,9 @@ const Theatre = () => {
 
                         <img src="/images/rent1.jpg" />
 
-                        <img src="/images/rent2.JPG" />
+                        <img src="/images/rent2.jpg" />
 
-                        <img src="/images/rent5.JPG" />
+                        <img src="/images/rent5.jpg" />
                     </Carousel>
                 </div>
                 <div
@@ -150,7 +150,7 @@ const Theatre = () => {
 
                         <img src="/images/himala1.jpg" />
 
-                        <img src="/images/himala3.JPG" />
+                        <img src="/images/himala3.jpg" />
                     </Carousel>
                 </div>
             </div>
