@@ -54,9 +54,9 @@ const Theatre = () => {
                         of my life. ​
                     </p>
                     <p>
-                        I applied as an intern in one of the country's theatre
-                        companies, signed up for workshops, and grabbed every
-                        opportunity to audition for upcoming shows. ​
+                        I applied as an intern in one of the country&apos;s
+                        theatre companies, signed up for workshops, and grabbed
+                        every opportunity to audition for upcoming shows. ​
                     </p>
                     <p>You can find my theatre journey here!</p>
                 </div>
