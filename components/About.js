@@ -19,7 +19,7 @@ const About = () => {
                     <b>video editing, content creation, and stage acting.</b>
                 </p>
                 <div className={styles["video-and-content"]}>
-                    <h3>Video Content & Content Creation</h3>
+                    <h3>Video Editing & Content Creation</h3>
 
                     <p>
                         Ever since college, I have been the video editor for
@@ -57,12 +57,16 @@ const About = () => {
                     </p>
                     <p>
                         You can find my best work in the{" "}
-                        <Link href="/video">
-                            <a className={styles["video-link"]}>Video</a>
+                        <Link href="/video-editing">
+                            <a className={styles["video-link"]}>
+                                Video Editing
+                            </a>
                         </Link>{" "}
                         and{" "}
-                        <Link href="/content">
-                            <a className={styles["content-link"]}>Content</a>
+                        <Link href="/content-creation">
+                            <a className={styles["content-link"]}>
+                                Content Creation
+                            </a>
                         </Link>{" "}
                         section of the website.
                     </p>
@@ -93,13 +97,7 @@ const About = () => {
                         in musical theatre workshops and connected with people
                         in the theatre world.
                     </p>
-                    <p>
-                        All of my theatre experience can be found in{" "}
-                        <Link href="/theatre">
-                            <a className={styles["theatre-link"]}>Theatre</a>
-                        </Link>{" "}
-                        section of the website.
-                    </p>
+
                     <p className={styles["thank-you"]}>
                         Thank you for visiting!
                     </p>

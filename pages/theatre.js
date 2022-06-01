@@ -1,7 +1,8 @@
 import React from "react";
+import Content from "../components/Theatre";
 
-const Theatre = () => {
-    return <div>Theatre</div>;
+const TheatrePage = () => {
+    return <Content />;
 };
 
-export default Theatre;
+export default TheatrePage;

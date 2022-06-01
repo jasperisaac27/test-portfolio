@@ -386,7 +386,37 @@ const Video = () => {
                             />
                         </div>
                     </div>
-                    <p data-aos="fade-up" data-aos-duration="500">
+                    <div
+                        className="youtube-cont-wrapper"
+                        data-aos="fade-up"
+                        data-aos-delay="250"
+                        data-aos-duration="500"
+                    >
+                        <div
+                            className={styles["youtube-container-7"]}
+                            onMouseOver={mouseOver}
+                            onMouseOut={mouseOut}
+                            style={{
+                                height: `${
+                                    (contentWidth / (16 / 25)) * (9 / 25)
+                                }px`,
+                                width: contentWidth,
+                            }}
+                        >
+                            <YouTube
+                                videoId={"VuJkctIQEzM"}
+                                className={styles["seventh-youtube"]}
+                                containerClassName={
+                                    styles["seventh-youtube-container"]
+                                }
+                                opts={opts}
+                                onReady={(event) => {
+                                    onReady(event, 7);
+                                }}
+                            />
+                        </div>
+                    </div>
+                    <p>
                         You can find more edited videos of mine in the Content
                         section of the website. Thank you! ​
                     </p>

@@ -21,6 +21,7 @@
 .content h1 {
     margin: 0;
     font-family: "Abril Fatface";
+    text-shadow: 2px 2px rgb(169, 167, 167);
 }
 .content h3 {
     font-family: "Abril Fatface";

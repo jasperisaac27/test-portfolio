@@ -55,28 +55,29 @@ export function NavLinks({ activePage, closeNavbar }) {
                     ABOUT
                 </a>
             </Link>
-            <Link href="/video">
+            <Link href="/video-editing">
                 <a
-                    className={`video-nav ${styles["nav-link"]} ${
-                        activePage === "video" && styles["active-page"]
+                    className={`video-editing-nav ${styles["nav-link"]} ${
+                        activePage === "video-editing" && styles["active-page"]
                     }`}
                     onClick={() => {
-                        closeNavbar("/video");
+                        closeNavbar("/video-editing");
                     }}
                 >
-                    VIDEO
+                    VIDEO EDITING
                 </a>
             </Link>
-            <Link href="/content">
+            <Link href="/content-creation">
                 <a
-                    className={`content-nav ${styles["nav-link"]} ${
-                        activePage === "content" && styles["active-page"]
+                    className={`content-creation-nav ${styles["nav-link"]} ${
+                        activePage === "content-creation" &&
+                        styles["active-page"]
                     }`}
                     onClick={() => {
-                        closeNavbar("/content");
+                        closeNavbar("/content-creation");
                     }}
                 >
-                    CONTENT
+                    CONTENT CREATION
                 </a>
             </Link>
             <Link href="/theatre">
@@ -91,6 +92,7 @@ export function NavLinks({ activePage, closeNavbar }) {
                     THEATRE
                 </a>
             </Link>
+
             <Link href="/contact">
                 <a
                     className={`contact-nav ${styles["nav-link"]} ${

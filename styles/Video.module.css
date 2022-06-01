@@ -21,6 +21,7 @@
 .video-content h1 {
     margin: 0;
     font-family: "Abril Fatface";
+    text-shadow: 2px 2px rgb(169, 167, 167);
 }
 .video-content h3 {
     font-family: "Abril Fatface";
@@ -36,7 +37,8 @@
 .youtube-container-3,
 .youtube-container-4,
 .youtube-container-5,
-.youtube-container-6 {
+.youtube-container-6,
+.youtube-container-7 {
     opacity: 0;
     transition: opacity 1s linear;
     margin: 2vw 0;

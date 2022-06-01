@@ -17,6 +17,8 @@
     "next": "12.1.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-multi-carousel": "^2.8.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-social-icons": "^5.13.0",
     "react-twitch-embed-video": "^3.0.2",
     "react-youtube": "^8.2.0",

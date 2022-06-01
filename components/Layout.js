@@ -39,8 +39,12 @@ const Layout = ({ children }) => {
         }
 
         const page = router.pathname.substring(1);
-
         const pageEl = document.getElementsByClassName(`${page}-nav`)[0];
+        if (!pageEl) {
+            router.push("/");
+            setActivePage("home");
+            return;
+        }
         if (pageEl.classList.contains(styles["active-page"])) {
             return;
         }
