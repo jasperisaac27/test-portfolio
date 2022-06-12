@@ -392,6 +392,19 @@ const Video = () => {
                         data-aos-delay="250"
                         data-aos-duration="500"
                     >
+                        <div className={styles["youtube-title"]}>
+                            <h2>
+                                SomeTheatreKid Twitch clips compilation 2021
+                            </h2>
+                            <p>
+                                Compilation of funny gaming clips streamed on
+                                Twitch throughout 2021. These clips are some of
+                                the most viewed clips on my Twitch channel,
+                                SomeTheatreKid. I also go by an alias called
+                                Mitch.
+                            </p>
+                            <p>Video edited in 2022 using Davinci Resolve.</p>
+                        </div>
                         <div
                             className={styles["youtube-container-7"]}
                             onMouseOver={mouseOver}

@@ -85,3 +85,12 @@
         width: 90%;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .youtube-title h2 {
+        font-size: 14px;
+    }
+    .youtube-title p {
+        font-size: 10px;
+    }
+}

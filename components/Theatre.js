@@ -135,25 +135,22 @@ const Theatre = () => {
                             width={325}
                             objectFit={"contain"}
                         />
-
-                        <Image
-                            src="/images/rent4.jpg"
-                            height={250}
-                            width={325}
-                        />
-
                         <Image
                             src="/images/rent1.jpg"
                             height={250}
                             width={325}
                         />
-
+                        <Image
+                            src="/images/rent4.jpg"
+                            height={250}
+                            width={325}
+                            objectFit={"contain"}
+                        />
                         <Image
                             src="/images/rent2.jpg"
                             height={250}
                             width={325}
                         />
-
                         <Image
                             src="/images/rent5.jpg"
                             height={250}
