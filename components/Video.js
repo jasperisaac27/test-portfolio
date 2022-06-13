@@ -144,12 +144,12 @@ const Video = () => {
                                 <p>
                                     Teaser trailer for Teatro Bedista&apos;s
                                     one-act stage play, &quot;Joe Cool:
-                                    Aplikante.
+                                    Aplikante.&quot;
                                 </p>
                                 <p>
                                     The concept is to showcase the play&apos;s
-                                    absurd feel with a handwritten elements, in
-                                    an office setting (where the play is set).
+                                    absurd feel with handwritten elements, in an
+                                    office setting (where the play is set).
                                 </p>
                                 <p>
                                     Video created in 2016 using Adobe Premiere
